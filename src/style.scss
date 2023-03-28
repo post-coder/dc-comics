@@ -1,3 +1,5 @@
+@use "./scss/variables" as *;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -20,7 +22,26 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+
+  padding: 12px 36px;
+
+  font-weight: bold;
+  text-transform: uppercase;
+
+  border: 1px solid $primary;
+
+  &-primary {
+    background-color: $primary;
+  }
 }

@@ -1,34 +1,34 @@
 <script>
   export default {
     name: "AppFooter",
-    data() {
-      return {
-        footerLinkLists: [
-        {
-          title: "DC COMICS",
-          links: [
-            'Characters', 'Comics', 'Movies', 'TV', 'Games', 'Videos', 'News'
-          ],
-        },
-        {
-          title: "SHOP",
-          links: [
-            'Shop DC', 'Shop DC Collectibles'
-          ],
-        },
-        {
-          title: "DC",
-          links: [
-            'Terms of Use', 'Privacy Policy', 'Ad Choices', 'Advertising', 'Jobs', 'Talent Workshop', 'Subscriptions', 'CPSC Certificates', 'Ratings', 'Shop Help', 'Contact Us'
-          ],
-        },
-        {
-          title: "SITES",
-          links: [
-            'DC', 'MAD Magazine', 'DC Kids', 'DC Universe', 'DC Power Visa'
-          ]
-        },
-      ],
+      data() {
+        return {
+          footerLinkLists: [
+          {
+            title: "DC COMICS",
+            links: [
+              'Characters', 'Comics', 'Movies', 'TV', 'Games', 'Videos', 'News'
+            ],
+          },
+          {
+            title: "SHOP",
+            links: [
+              'Shop DC', 'Shop DC Collectibles'
+            ],
+          },
+          {
+            title: "DC",
+            links: [
+              'Terms of Use', 'Privacy Policy', 'Ad Choices', 'Advertising', 'Jobs', 'Talent Workshop', 'Subscriptions', 'CPSC Certificates', 'Ratings', 'Shop Help', 'Contact Us'
+            ],
+          },
+          {
+            title: "SITES",
+            links: [
+              'DC', 'MAD Magazine', 'DC Kids', 'DC Universe', 'DC Power Visa'
+            ]
+          },
+        ],
 
       }
     },
@@ -83,7 +83,7 @@ footer {
 
     height: 400px;
 
-    padding: 40px;
+    padding: 40px 0;
 
     z-index: 1;
 
